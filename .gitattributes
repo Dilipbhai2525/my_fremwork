@@ -1,0 +1,4 @@
+android-sdk/cmdline-tools.zip filter=lfs diff=lfs merge=lfs -text
+gradle.zip filter=lfs diff=lfs merge=lfs -text
+gradle/gradle-8.3/lib/kotlin-compiler-embeddable-1.9.0.jar filter=lfs diff=lfs merge=lfs -text
+gradle/gradle-7.6.1/lib/kotlin-compiler-embeddable-1.7.10.jar filter=lfs diff=lfs merge=lfs -text
