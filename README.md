@@ -4,6 +4,17 @@ A modern framework for building web and mobile applications using HTML, CSS, and
 
 HTML, CSS અને JavaScript નો ઉપયોગ કરીને વેબ અને મોબાઇલ એપ્લિકેશન બનાવવા માટેનું આધુનિક ફ્રેમવર્ક.
 
+[Full Documentation](docs/documentation.html) | સંપૂર્ણ ડોક્યુમેન્ટેસન
+
+## Key Features | મુખ્ય વિશેષતાઓ
+- App Configuration Management | એપ કન્ફિગ્યુરેશન મેનેજમેન્ટ
+  - Change app name and package name | એપ નામ અને પેકેજ નામ બદલી શકાય
+  - Manage Android permissions | એન્ડ્રોઇડ પરમીસાં મેનેજ કરી શકાય
+  - Update app version | એપ વર્સન અપડેટ કરી શકાય
+- Build Tools | બિલ્ડ ટૂલ્સ
+  - Web and Android APK builds | વેબ અને એન્ડ્રોઇડ APK બિલ્ડ્સ
+  - Easy deployment process | સરળ ડેપ્લોયમેન્ટ પ્રોસેસ
+
 ## Features | વિશેષતાઓ
 
 - Bootstrap 5 integration | Bootstrap 5 એકીકરણ
@@ -12,7 +23,34 @@ HTML, CSS અને JavaScript નો ઉપયોગ કરીને વેબ 
 - Support for web and mobile (APK) builds | વેબ અને મોબાઇલ (APK) બિલ્ડ્સ માટે સપોર્ટ
 - Modern UI components | આધુનિક UI કમ્પોનન્ટ્સ
 
-## Complete Installation Guide (Manual) | સંપૂર્ણ ઇન્સ્ટોલેશન ગાઈડ (મેન્યુઅલ) | સંપૂર્ણ ઇન્સ્ટોલેશન ગાઈડ
+## Quick Start Guide | ત્વરિત શરૂઆત ગાઈડ
+
+1. Install Dependencies | ડેપેન્ડન્સીઝ ઇન્સ્ટૉલ કરો:
+```bash
+npm install
+```
+
+2. Start Development Server | ડેવલપમેન્ટ સર્વર શરૂ કરો:
+```bash
+npm start
+```
+
+3. Build Your App | તમારું એપ બિલ્ડ કરો:
+```bash
+npm run build
+npm run build:android
+```
+
+## Documentation | ડોક્યુમેન્ટેસન
+
+For detailed documentation, please refer to: [docs/documentation.html](docs/documentation.html)
+
+The documentation includes:
+- Comprehensive guide to managing app information
+- Complete list of Android permissions and their usage
+- Step-by-step app building process
+- Troubleshooting guide
+- Best practices for app development
 
 ### Step 1: Prerequisites
 
