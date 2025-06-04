@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Splash Generator</title>
+</head>
+<body>
+    <canvas id="splashCanvas" width="2732" height="2732" style="display:none;"></canvas>
+    <script>
+        const canvas = document.getElementById('splashCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set background
+        const gradient = ctx.createLinearGradient(0, 0, 2732, 2732);
+        gradient.addColorStop(0, '#4a90e2');
+        gradient.addColorStop(1, '#357abd');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 2732, 2732);
+
+        // Draw text
+        ctx.font = 'bold 200px Arial';
+        ctx.fillStyle = '#ffffff';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('Hybrid Framework', 1366, 1366);
+
+        // Convert to PNG
+        const link = document.createElement('a');
+        link.download = 'splash.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    </script>
+</body>
+</html>
