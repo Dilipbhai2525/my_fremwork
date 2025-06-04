@@ -7,7 +7,8 @@
     "start": "node server.js",
     "build": "webpack --mode production",
     "build:android": "node tools/build-android.js",
-    "change-app-info": "node tools/change-app-info.js"
+    "change-app-info": "node tools/change-app-info.js",
+    "manage-permissions": "node tools/manage-android-permissions.js"
   },
   "dependencies": {
     "adm-zip": "^0.5.16",
